@@ -11,7 +11,7 @@
   "white_list":["http://*/*", "https://*/*"],    //白名单
   "update_url": "http://epm-cdn.elong.com", //包更新地址(cdn)
   "source_update_url":"http://epm.elong.com",//备用更新地址
-  "key":"532ecbd7842b54befb2f417a41533025",
+  "key":"",
   "package_md5":"c70390d257918719c5c58be5b33aeccc",
   "author": "yue.cao@crop.elong.com", //作者/模块负责人
   "homepage": "http://m.elong.com/train/",//主页，如果更新或是回源更新都失败时用
