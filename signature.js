@@ -12,7 +12,7 @@ fs.readFile("1package.json",'utf-8', function(err, data){
     fs.readFile("/tmp/test.json",'utf-8', function(err, data){
 
           var nc = data.replace(/"key":(.*)/g,"\"key\":\""+ss+"\",");
-
+          console.log(nc);
           fs.writeFile('1package.json', nc, function(err) {
 
           });
