@@ -1,0 +1,18 @@
+{
+  "name": "train",                                    //模块名
+  "version": "2.0.3",                                //版本
+  "level": 1,                                             //级别(1强制,2非强制)
+  "description": "火车票",                       //描述
+  "main": "index.html",                           //入口文件
+  "scripts": {
+    "start": "",                                          //启动脚本(用于启动前调用一些功能)
+    "exit":"",                                            //退出脚本(用于退出时调用一些功能)
+  },
+  "white_list":["http://*/*", "https://*/*"],    //白名单
+  "update_url": "http://epm-cdn.elong.com", //包更新地址(cdn)
+  "source_update_url":"http://epm.elong.com",//备用更新地址
+  "key":"090f46eeb161bc4cd0bdc19f44ecb229",
+  "package_md5":"c70390d257918719c5c58be5b33aeccc",
+  "author": "yue.cao@crop.elong.com", //作者/模块负责人
+  "homepage": "http://m.elong.com/train/",//主页，如果更新或是回源更新都失败时用
+}
