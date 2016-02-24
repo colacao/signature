@@ -1,7 +1,8 @@
-# signature
-# 生成签名
+# 全量打包
 ```
-node signature.js aa.zip
+./package.sh
 ```
-# app验证
-读取1package.json，替换掉key的值为""后获取md5值与1package.json原来的key判断
+# 增量打包
+```
+./package.sh last.zip
+```
